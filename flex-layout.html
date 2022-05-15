@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap");
+    * {
+      padding: 0;
+      margin: 0;
+      font-family: "Roboto Flex", sans-serif;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      text-align: center;
+      background-color: #00adb5;
+      width: 100%;
+      padding: 20px;
+      color: #eee;
+    }
+
+    h2,
+    p,
+    .content-box {
+      margin: 20px;
+    }
+
+    /* HEADER */
+
+    header {
+      background-color: #00adb5;
+      padding: 30px;
+      text-align: center;
+      color: #eee;
+    }
+
+    /* HEADER */
+
+    /* NAV */
+
+    nav {
+      display: flex;
+      background-color: #222831;
+    }
+    nav a {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      text-decoration: none;
+      color: #eee;
+      font-size: 20px;
+    }
+    nav a:hover {
+      background-color: #eee;
+      color: #000;
+      transition: 0.5s;
+    }
+
+    /* NAV */
+
+    /* MAİN */
+
+    main {
+      display: flex;
+    }
+
+    .sidebar {
+      flex-basis: 30%;
+      background-color: #737d8c;
+    }
+    .content {
+      flex-basis: 70%;
+      background-color: #eee;
+    }
+    .content-box {
+      height: 200px;
+      background-color: #393e46;
+    }
+    .sidebar-ph {
+      height: 50px;
+      background-color: #393e46;
+      margin: 20px;
+    }
+    /* MAİN */
+
+    @media (max-width: 700px) {
+      nav {
+        justify-content: center;
+      }
+      main {
+        flex-direction: column;
+      }
+    }
+  </style>
+
+  <body>
+    <header>
+      <h1>Lorem, ipsum.</h1>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </header>
+    <nav>
+      <a href="">link 1</a>
+      <a href="">link 2</a>
+      <a href="">link 3</a>
+      <a href="">link 4</a>
+    </nav>
+    <main>
+      <div class="content">
+        <h2>Lorem, ipsum.</h2>
+        <div class="content-box"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis
+          minus labore. Quis dolorem esse totam veniam illum velit, libero
+          sapiente perferendis. Nisi explicabo eos illum nihil accusamus vel
+          cupiditate!
+        </p>
+        <h2>Lorem, ipsum.</h2>
+        <div class="content-box"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis
+          minus labore. Quis dolorem esse totam veniam illum velit, libero
+          sapiente perferendis. Nisi explicabo eos illum nihil accusamus vel
+          cupiditate!
+        </p>
+        <h2>Lorem, ipsum.</h2>
+        <div class="content-box"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis
+          minus labore. Quis dolorem esse totam veniam illum velit, libero
+          sapiente perferendis. Nisi explicabo eos illum nihil accusamus vel
+          cupiditate!
+        </p>
+        <h2>Lorem, ipsum.</h2>
+        <div class="content-box"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis
+          minus labore. Quis dolorem esse totam veniam illum velit, libero
+          sapiente perferendis. Nisi explicabo eos illum nihil accusamus vel
+          cupiditate!
+        </p>
+      </div>
+      <div class="sidebar">
+        <h2>Lorem, ipsum.</h2>
+        <div class="content-box"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis
+          minus labore. Quis dolorem esse totam veniam illum velit, libero
+          sapiente perferendis. Nisi explicabo eos illum nihil accusamus vel
+          cupiditate!
+        </p>
+        <div class="sidebar-ph"></div>
+        <div class="sidebar-ph"></div>
+        <div class="sidebar-ph"></div>
+      </div>
+    </main>
+    <footer>
+      <h1>Lorem, ipsum dolor.</h1>
+    </footer>
+  </body>
+</html>
